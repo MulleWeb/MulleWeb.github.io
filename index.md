@@ -1,45 +1,25 @@
-# MulleFoundation
+# MulleWeb
 
-This is the Foundation library written for [mulle-objc](//mulle-objc.github.io).
+This is a small Web library written on top of the [MulleFoundation](//MulleFoundation.github.io).
 
-*MulleFoundation* is growing collection of libraries to form a complete and powerful Objective-C
-class library for *mulle-objc*. An Objective-C Foundation traditionally contains no graphics code.
+It contains a HTTP server and HTTP client library and support for JSON. It is experimental at
+this stage.
 
-The *MulleFoundation* is designed as plug and play system. Optional library components can be 
-left out with no bad side-effect. The concept of the *MulleFoundation* is to avoid actual 
-linking into a shared library or executable as much as possible. This has the benefit that
-an optimizing pass can determine, which parts need to be actually linked and which not.
+Library                                                                    | Description 
+---------------------------------------------------------------------------|----------------------
+[MulleWeb](//github.com/MulleWeb/MulleWeb)                                 | A convenient wrapper for the MulleWeb libraries
+[MulleCurl](//github.com/MulleWeb/MulleCurl)                               | HTTP client library for the MulleFoundation based on libcurl 
+[MulleCivetWeb](//github.com/MulleWeb/MulleCivetWeb)                       | HTTP Server for the MulleFoundation based on civetweb  
+[MulleObjCJSMNFoundation](//github.com/MulleWeb/MulleObjCJSMNFoundation)   | JSON support 
 
-Library                                                                                 | Description 
-----------------------------------------------------------------------------------------|----------------------
-[Foundation](//github.com/MulleFoundation/Foundation)                                   | The MulleFoundation plus compatibility code
-[MulleFoundation](//github.com/MulleFoundation/MulleFoundation)                         | A convenient wrapper for the  MulleFoundation libraries
-[MulleObjCContainerFoundation](//github.com/MulleFoundation/MulleObjCContainerFoundation ) | Container classes like NSArray, NSSet, NSDictionary
-[MulleObjCExpatFoundation](//github.com/MulleFoundation/MulleObjCExpatFoundation)       | XML parser based on MulleObjCStandardFoundation and libexpat 
-[MulleObjCInetFoundation](//github.com/MulleFoundation/MulleObjCInetFoundation)         | Internet-related classes like NSHost and NSURL 
-[MulleObjCKVCFoundation](//github.com/MulleFoundation/MulleObjCKVCFoundation)           | Key-Value-Coding based on MulleObjCFoundation and mulle-objc
-[MulleObjCMathFoundation](//github.com/MulleFoundation/MulleObjCMathFoundation)         | NSNumber refines that use the math library  
-[MulleObjCOSFoundation](//github.com/MulleFoundation/MulleObjCOSFoundation)             | Platform-dependent classes and categories like NSTask, NSPipe 
-[MulleObjCStandardFoundation](//github.com/MulleFoundation/MulleObjCStandardFoundation) | Platform-independent Objective-C classes, like NSString, NSArray, NSNotificationCenter
-[MulleObjCValueFoundation ](//github.com/MulleFoundation/MulleObjCValueFoundation  )    | Value classes NSNumber, NSString, NSDate, NSData 
-[objc-compat](//github.com/MulleFoundation/objc-compat)                                 | Glue for Objective-C code to support different runtimes
-
-Library                                                                                | Description
----------------------------------------------------------------------------------------|----------------------
-[Foundation](//github.com/MulleFoundation/Foundation-startup)                          | Startup code for Foundation-based executables
-[MulleFoundation](//github.com/MulleFoundation/MulleFoundation-startup)                | Startup code for MulleFoundation-based executables
-
-*MulleFoundation* is based on [MulleObjC](//MulleObjC.github.io) and [mulle-core](//mulle-core.github.io).
-Some constituent libraries bring in outside depedencies such as *expat* for XML parsing.
 
 ## mulle-sde support
 
-Library                                                                                | Description
----------------------------------------------------------------------------------------|----------------------
-[foundation-developer](//github.com/MulleFoundation/foundation-developer)              | Objective C with mulle-sde and the MulleFoundation
-[mulle-foundation-developer](//github.com/MulleFoundation/mulle-foundation-developer)  | MulleFoundation developer kit for mulle-sde 
+Library                                                | Description
+-------------------------------------------------------|----------------------
+[web-developer](//github.com/MulleWeb/web-developer)   | Developer kit for mulle-sde. The easy way to install MulleWeb (and MulleFoundation)
 
 ## Install
 
-See [foundation-developer](//github.com/MulleFoundation/foundation-developer) for install instructions.
+See [web-developer](//github.com/MulleWeb/web-developer) for install instructions.
 
