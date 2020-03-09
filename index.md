@@ -2,7 +2,7 @@
 
 This is a small Web library written on top of the [MulleFoundation](//MulleFoundation.github.io).
 
-It contains a HTTP server and HTTP client library and support for JSON. It is experimental at
+It contains a HTTP server and a HTTP client library and support for JSON. It is experimental at
 this stage.
 
 Library                                                                    | Description 
