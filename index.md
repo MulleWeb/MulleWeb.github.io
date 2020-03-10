@@ -7,9 +7,12 @@ this stage.
 
 Library                                                                    | Description 
 ---------------------------------------------------------------------------|----------------------
-[MulleWeb](//github.com/MulleWeb/MulleWeb)                                 | A convenient wrapper for the MulleWeb libraries
+[MulleWebClient](//github.com/MulleWeb/MulleWebClient)                     | MulleWeb client library
+[MulleWebServer](//github.com/MulleWeb/MulleWebServer)                     | MulleWeb server library
 [MulleCurl](//github.com/MulleWeb/MulleCurl)                               | HTTP client library for the MulleFoundation based on libcurl 
 [MulleCivetWeb](//github.com/MulleWeb/MulleCivetWeb)                       | HTTP Server for the MulleFoundation based on civetweb  
+[MulleObjCInetFoundation](//github.com/MulleWeb/MulleObjCJSMNFoundation)   | NSURL, NSHost
+[MulleObjCHTTPFoundation](//github.com/MulleWeb/MulleObjCHTTPFoundation)   | HTTP header and URL parsing
 [MulleObjCJSMNFoundation](//github.com/MulleWeb/MulleObjCJSMNFoundation)   | JSON support 
 
 
