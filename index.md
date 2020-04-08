@@ -14,6 +14,8 @@ Library                                                                    | Des
 [MulleObjCInetFoundation](//github.com/MulleWeb/MulleObjCJSMNFoundation)   | NSURL, NSHost
 [MulleObjCHTTPFoundation](//github.com/MulleWeb/MulleObjCHTTPFoundation)   | HTTP header and URL parsing
 [MulleObjCJSMNFoundation](//github.com/MulleWeb/MulleObjCJSMNFoundation)   | JSON support 
+[MulleHoedown](//github.com/MulleWeb/MulleHoedown)                         | Markdown support
+[MulleZlib](//github.com/MulleWeb/MulleZlib)                               | Compression
 
 
 ## mulle-sde support
