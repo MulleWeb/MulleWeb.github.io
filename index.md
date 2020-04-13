@@ -2,7 +2,7 @@
 
 This is a small Web library collection written on top of the [MulleFoundation](//MulleFoundation.github.io).
 
-It contains a HTTP server and a HTTP client library and support for JSON. It is experimental at
+It contains amongst other functionality a HTTP server and a HTTP client library and support for JSON. It is experimental at
 this stage.
 
 Library                                                                    | Description 
@@ -16,6 +16,8 @@ Library                                                                    | Des
 [MulleObjCJSMNFoundation](//github.com/MulleWeb/MulleObjCJSMNFoundation)   | JSON support 
 [MulleHoedown](//github.com/MulleWeb/MulleHoedown)                         | Markdown support
 [MulleZlib](//github.com/MulleWeb/MulleZlib)                               | Compression
+[MulleScion](//github.com/MulleWeb/MulleScion)                             | TWiG like templates
+[MulleScionHTMLPreprocessor](//github.com/MulleWeb/MulleScionHTMLPreprocessor) | Preprocessor to convert fake HTML to MulleScion tags
 
 
 ## mulle-sde support
