@@ -19,6 +19,9 @@ Library                                                                    | Des
 [MulleScion](//github.com/MulleWeb/MulleScion)                             | TWiG like templates
 [MulleScionHTMLPreprocessor](//github.com/MulleWeb/MulleScionHTMLPreprocessor) | Preprocessor to convert fake HTML to MulleScion tags
 
+Executable                                                                 | Description 
+---------------------------------------------------------------------------|----------------------
+[mulle-scion](//github.com/MulleWeb/mulle-scion)                           | Commandline template processor and documentation for MulleScion
 
 ## mulle-sde support
 
